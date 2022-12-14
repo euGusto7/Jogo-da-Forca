@@ -1,0 +1,87 @@
+body {
+    font-family: 'Consolas', Arial, Helvetica, sans-serif;
+}
+
+.flex-container-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container-2-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.flex-container-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+
+h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 20px;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid #DC1F27;
+    width: 40px;
+    margin: 5px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    width: 35px;
+    padding: 10px 0;
+    background-color: #00698C;
+    color: #FFFFFF;
+    border: 1px solid #00698C;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #0682ac;
+}
+
+button.novo-bt {
+    width: auto;
+    padding: 10px;
+}
+
+.certa, .certa:hover {
+    background: #0682ac;
+    border: 1px solid #0682ac;
+    cursor: inherit;
+}
+
+.errada, .errada:hover {
+    background: #DC1F27;
+    border: 1px solid #DC1F27;
+    cursor: inherit;
+}
